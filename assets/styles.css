@@ -4,7 +4,7 @@
 /* ------------------------------------------------------variables css----------------------------------------------------- */
 :root{
     --colorWhite: rgba(255, 255, 255);
-    --colorBlack: rgb(0, 0, 0);
+    --colorBlack: rgb(17, 17, 17);
     --colorBlue: rgb(49, 39, 131);
     --colorRed: rgb(235, 2, 2);
     --font-family: 'Press Start 2P', monospace;
@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100%;
     position: fixed;
-    z-index: -1;
+    z-index: -1; 
 }
 
 /* ---------------------------------------------------toda la pagina -----------------------------------------------------------*/
@@ -62,7 +62,7 @@ header::before{
 nav{
     width: 100%;
     height: 80px;
-    background: rgb(255, 255, 255);
+    background: rgb(53, 43, 107);
     border-bottom: 1px solid transparent;
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
     position: fixed;
@@ -142,6 +142,7 @@ nav{
 
 .titulo{
     font-size: 50px;
+    text-align: center;
 }
 
 
@@ -247,7 +248,7 @@ nav{
 /* ----------------------------------------------------------otra sección----------------------------------------------------------------- */
 
 .questions{
-    width: 100vw;
+    width: 100%;
     height: 600px;
     display: flex;
     background: #f2f2f2;
